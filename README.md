@@ -16,7 +16,7 @@ The project is executed in three distinct phases: **Basemap Construction**, **Ma
 * **Input**: Raw DGPS Excel file (e.g., `Path wise sorted DGPS Kotturpuram.xlsx`).
 * **Logic**: Converts Easting/Northing (UTM Zone 44N) into WGS84 coordinates, preserves survey metadata (`DES` column), and builds a directed graph with `from_id`, `to_id`, and native `bearing` calculations.
 * **Outputs**: `base_map_nodes.shp` and `base_map_edges.shp`.
-
+* **Data**: There are two data files with names, Dec6_Kotturpuram_naviconly_10.43 am trip.xls, etc.
 
 
 ### Phase 2: Map-Matching (MM) Algorithms
